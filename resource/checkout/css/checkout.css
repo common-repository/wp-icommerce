@@ -1,0 +1,126 @@
+
+.wpic_checkout{
+  width:100%;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.wpic_checkout ul{
+  margin: 0px;
+  padding: 0px;
+}
+.wpic_checkout ul li{
+  list-style: none;
+  display: block;
+  border-left: solid 1px #0099ff;
+  border-right: solid 1px #0099ff;
+  margin:0px;
+}
+.wpic_checkout ul li:first-child,
+.wpic_checkout ul li:first-child .wpic_checkout_title{
+  /*border-radius: 4px 4px 0px 0px;*/
+  border-top: solid 1px #0baafc;
+}
+.wpic_checkout ul li:last-child,
+.wpic_checkout ul li:last-child .wpic_checkout_title{
+  /*border-radius:0px 0px 4px 4px;*/
+  border-bottom: solid 1px #0099ff;
+}
+.wpic_checkout_title{
+  color:#fff;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-top: solid 1px #999;
+  border-bottom: solid 1px #999;
+  background:#ccc;
+}
+.wpic_checkout_title:hover{
+  background: #0BAAFC;
+}
+.wpic_step{
+  padding: 5px 20px;
+  display: none;
+  cursor: default;
+}
+.enable{
+  cursor: pointer;
+}
+.active{
+  color:#FFF;
+  font-weight: bold;
+  background: #0099ff;
+  border-top: solid 1px #0baafc;
+  border-bottom: solid 1px #0baafc;
+}
+
+.wpic_checkout table{
+  margin-bottom: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 1px #ccc;
+}
+.wpic_checkout table tr td{
+  border: none;
+}
+
+.wpic_checkout table tr td.field_title{
+  font-weight: bold;
+}
+
+.checkout_a_btn{
+  width:100px;
+  display: block;
+  background: #0099ff;
+  text-align: center;
+  float:right;
+  margin-bottom: 10px;
+  border: solid 1px #0BAAFC;
+  font-weight: bold;
+  color:#FFF;
+}
+.checkout_a_btn:hover{
+  color:#fff;
+  background: #0BAAFC;
+}
+.wpic_required{
+  color: #FF0000;
+}
+
+.wpic_overview_table{
+  width:100%;
+}
+
+#wpic_overview table tr td,#wpic_overview table tr th{
+  vertical-align: top;
+  border-bottom: solid 1px #ededed;
+}
+#wpic_overview table tr.wpic_overview_total_sec td{
+  border: none;
+}
+
+#wpic_overview table tr.wpic_overview_total_sec td.wpic_overview_total_td{
+  text-align: right;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.checkout_error{
+  background: #FFBABA;
+  padding:10px;
+  border: solid 1px #D8000C;
+  color:#D8000C;
+}
+.clear{
+  clear:both;
+}
+
+.checkout_loader{
+  float: right;
+  background: url('../../images/loader.svg');
+  display: block;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  top: -3px;
+  margin-right: 10px;
+}

@@ -1,0 +1,380 @@
+/*body{
+  font-family: arial;
+  font-size: 12px;
+  width:70%;
+  margin: auto;
+  margin-top:20px; 
+}*/
+
+/* --------------------------custom css-------------------------- */
+.wpic_design_container{
+  width: 950px;
+  margin: auto;
+}
+
+.wpic_design_container div,
+.wpic_design_container li{
+  box-sizing: content-box;
+}
+
+a{cursor: pointer;}
+
+.clear{
+  clear: both;
+}
+
+.wpic_title{
+  font-size: 26px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+/* --------------------------popup tooltip-------------------------- */
+
+
+/* --------------------------top panel-------------------------- */
+
+
+/* --------------------------mid container-------------------------- */
+
+/* --------------------------left panel-------------------------- */
+
+/* --------------------------mid panel-------------------------- */
+
+.prod_container{
+  text-align: center;
+  width:400px;
+  margin: auto;
+}
+
+/* --------------------------right panel-------------------------- */
+.wpic_tab_prod_title{
+  padding: 10px 0px;
+  font-weight: bold;
+}
+.wpic_tab_prod_sku{
+  padding: 10px 0px; 
+}
+.wpic_tab_prod_price{
+  padding: 10px 0px;
+}
+.wpic_tab_prod_prc{
+  font-weight: bold;
+  color: #ff6600;
+  font-size: 20px;
+}
+.wpic_tab_prod_cat{
+  padding: 10px 0px;
+}
+
+.wpic_tab_prod_add_to_cart{
+  padding: 10px 0px;
+  margin-top: 10px;
+  text-align: center;
+  width: 45%;
+  float:right;
+}
+.wpic_tab_prod_quantity{
+  padding: 10px 0px;
+  width: 45%;
+  float: left;
+}
+
+.wpic_prod_add_to_cart{
+  padding: 10px 20px;
+  text-align: center;
+  background: #0099ff;
+  border-radius: 4px;
+  color: #fff;
+  
+}
+
+.wpic_input{
+  width: 100%;
+  padding: 5px 0px;
+}
+.wpic_input input,
+.wpic_input select{
+  padding: 2px;
+}
+
+.wpic_txtarea_label{
+  width: 100%;
+  
+}
+
+.wpic_txt_label{
+  width: 120px;
+  float: left;
+}
+.wpic_txt_input{
+  float:left;
+}
+
+.wpic_add_txt_btn{
+  text-align: right;
+}
+.wpic_add_txt_btn a{
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-align: center;
+  background: #0099ff;
+  color: #fff;
+}
+
+.wpic_tab_logos{
+  width: 70px;
+  padding: 2px;
+  float: left;
+  border: solid 1px #ccc;
+  margin: 0px 4px 10px 0px;
+}
+
+.wpic_tab_upld{
+  padding: 10px 0px;
+}
+
+.wpic_cart_act_container{
+  width:348px;
+  min-height:65px;
+  border: solid 1px #ccc;
+  float: right;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* --------------------------bottom panel-------------------------- */
+
+.overlay
+{
+	height:200% !important;
+	width:100%;
+	background:#DDDDDD;
+	opacity:.5;
+	z-index: 50;
+	filter: alpha(opacity=50);
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.showprogress
+{
+	display:none;
+	z-index: 50;
+	/*left:600px;
+	top:400px;*/
+	left:50%;
+	top:50%;
+	position:absolute;
+}
+.uploadprogress
+{
+	display:none;
+	/*z-index: 50;
+	left:40%;
+	top:45%;
+	position:absolute;*/
+}
+.transition {
+  -webkit-transform: scale(1.4); 
+  -moz-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  transform: scale(1.4);
+}
+
+.wpic_prod_details_container{
+  width: 100%;
+  margin: 20px 0px;
+  border-top: solid 1px #ccc;
+}
+
+.wpic_prod_cont_top{
+  width: 100%;
+
+}
+
+.wpic_prod_image{
+  width: 30%;
+  float: left;
+
+}
+.wpic_prod_image img{
+  width: 100%;
+}
+
+.wpic_prod_details_content{
+  padding: 10px 0px;
+  line-height: 18px;
+}
+
+.cts_prod_prc{
+  color:#ff6600;
+}
+
+/* prod new design */
+.wpic_prod_design_div{
+  width:550px;
+  min-height: 500px;
+  float:left;
+}
+.wpic_canvas_image{
+  width:100%;
+  height: 450px;
+  border: solid 1px #ccc;
+  position: relative;
+}
+
+.wpic_canvas_controls ul{
+  margin: 0px;
+  padding: 0px;
+}
+.wpic_canvas_controls ul li{
+ list-style: none;
+ width: 30px;
+ height: 30px;
+ background: #ccc;
+ padding: 5px;
+ text-align: center;
+ border-bottom: solid 1px #fff;
+ cursor: pointer;
+ position: relative;
+ top: -73px;
+ left: 1px;
+}
+.wpic_canvas_controls ul li:hover{
+  background: #0099ff;
+}
+
+.wpic_bottom_panel{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.wpic_bottom_panel ul li{
+  display: inline-block;
+  border: solid 1px #ccc;
+  padding: 5px;
+}
+
+/* new tab design */
+
+.scpd-tab-container{
+  width: 370px;
+  float: right;
+}
+
+ul.scpd-tabs{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+div.scpd-tabs div.scpd-tab-link{
+  width:72px;
+  height: 45px;
+  background: #ededed;
+  color: #222;
+  /*display: inline-block;
+  padding: 10px 15px;*/
+  padding:5px 0px 10px 0px;
+  cursor: pointer;
+  border-top:solid 1px #ccc;
+  border-left:solid 1px #ccc;
+  border-right:solid 1px #ccc;
+  text-align: center;
+  float:left;
+}
+div.scpd-tabs div.scpd-tab-link:hover{
+  background: #0099ff;
+}
+
+div.scpd-tabs div:first-child{
+}
+
+div.scpd-tabs div.current{
+  background: #fff;
+  color: #222;
+  position: relative;
+  top:1px;
+  /*border-top:solid 2px #ccc;*/
+}
+
+.scpd-tab-content{
+  display: none;
+  background: #fff;
+  padding: 15px;
+  border:solid 1px #ccc;
+  height: 360px;
+  overflow: auto;
+}
+
+.scpd-tab-content.current{
+  display: inherit;
+}
+
+/*icons*/
+.wpic_front_icon{
+  background: url("images/tofront.png") no-repeat;
+/*  padding: 3px 12px;
+  position: relative;
+  top: 8px;*/
+  width: 24px;
+  height: 24px;
+  margin: auto;
+}
+.wpic_back_icon{
+  background: url("images/toback.png") no-repeat;
+/*  padding: 3px 12px;
+  position: relative;
+  top: 8px;*/
+  width: 24px;
+  height: 24px;
+  margin: auto;
+}
+.wpic_trash_icon{
+  background: url("images/delete.png") no-repeat;
+/*  padding: 3px 12px;
+  position: relative;
+  top: 8px;*/
+  width: 24px;
+  height: 24px;
+  margin: auto;
+}
+.wpic_product_icon{
+  background: url("images/product.png") no-repeat;
+  width: 24px;
+  height: 24px;
+  margin: auto;
+}
+.wpic_text_icon{
+  background: url("images/text.png") no-repeat;
+  width: 24px;
+  height: 24px;
+  margin: auto;
+}
+.wpic_art_icon{
+  background: url("images/art.png") no-repeat;
+  width: 24px;
+  height: 24px;
+  margin: auto;
+}
+.wpic_image_icon{
+  background: url("images/image.png") no-repeat;
+  width: 24px;
+  height: 24px;
+  margin: auto;
+}
+.wpic_help_icon{
+  background: url("images/help.png") no-repeat;
+  width: 24px;
+  height: 24px;
+  margin: auto;
+}
+
+.wpic_tab_title{
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.wpic_help_txt{
+  line-height: 1.5;
+}

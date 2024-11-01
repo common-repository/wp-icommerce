@@ -1,0 +1,205 @@
+.prod_box{
+  width:180px;
+  height: 320px;
+  float: left;
+  border: solid 1px #e1e1e1;
+  /*border-bottom: solid 5px #0099ff;*/
+  padding: 8px;
+  margin: 5px;
+  position: relative;
+}
+
+.prod_box a{
+  text-decoration: none !important;
+}
+
+.prod_box_img{
+  width: 100%;
+  height: 180px;
+}
+.prod_box .prod_box_img img{
+  border-radius: 0px;
+  box-shadow: none;
+  width: 180px;
+  height:100%;
+}
+
+.prod_box .prod_box_title{
+  margin: 10px 0px 5px 0px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.prod_box .prod_box_title a{
+  color: #666 !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.prod_box .prod_box_sku{
+  text-align: center;
+  color:#666;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.prod_box .prod_box_price{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #ff6600;
+}
+
+.prod_box .prod_box_button{
+  width: 90%;
+  height: 30px;
+  position: absolute;
+  bottom: 5px;
+  text-align: right;
+}
+
+.prod_box_button a.prod_customize{
+/*  display: block;*/
+  width:50%;
+  padding: 5px 10px;
+  background: #ccc;
+  color: #fff !important;
+  font-weight: bold;
+  /*border-radius: 4px;*/
+}
+
+.prod_box_button a.prod_customize:hover{
+  background: #0099ff;
+}
+
+/* cart page */
+
+.wpic_cart_container{
+  width: 100%;
+}
+.wpic_cart_container table{
+  width: 100%;
+}
+.wpic_cart_container table tr th{
+  background: #e1e1e1;
+  border: solid 1px #ccc;
+  text-align: center;
+  padding: 5px 0px;
+}
+.wpic_cart_container table tr td{
+  border: solid 1px #ccc;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.wpic_cart_container table tr td img{
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+.wpic_cart_container table tr td.wpic_cart_total_cell{
+  text-align: right;
+  font-weight: bold;
+}
+
+.wpic_cart_container table tr td.wpic_cart_btns{
+  text-align: right;
+  vertical-align: top;
+}
+.wpic_cart_container table tr td.wpic_cart_btns button.wpic_clear_cart_btn{
+  margin-right: 10px;
+}
+.wpic_cart_container table tr td.wpic_cart_btns button.wpic_cart_checkout_btn{
+  margin-left: 10px;
+}
+.wpic_cart_container table tr td.wpic_cart_btns button.wpic_submit_cart_btn,
+.wpic_cart_container table tr td.wpic_cart_btns button.wpic_clear_cart_btn,
+.wpic_cart_container table tr td.wpic_cart_btns button.wpic_cart_checkout_btn{
+  background: #ccc;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: normal;
+  line-height: 1.42857;
+  padding: 7px 10px;
+}
+.wpic_cart_container table tr td.wpic_cart_btns button.wpic_submit_cart_btn:hover,
+.wpic_cart_container table tr td.wpic_cart_btns button.wpic_clear_cart_btn:hover,
+.wpic_cart_container table tr td.wpic_cart_btns button.wpic_cart_checkout_btn:hover{
+  background: #0099ff;
+}
+
+.wpic_tab_prod_variation table.wpic_prod_var tr td{
+  padding: 2px 0px !important;
+}
+.wpic_error{
+  color:#ff0000;
+}
+
+/* product details */
+.wpic_product_container{
+  margin: auto;
+  /*width: 950px;*/
+}
+.wpic_product_container #content{
+  background: #FFF;
+  padding: 20px 10px;
+}
+.wpic_left_container{
+  width: 45%;
+  float:left;
+}
+.wpic_right_container{
+  width:45%;
+  float: left;
+  margin-left: 30px;
+}
+.wpic_sngl_prod_quantity{
+  padding: 10px 0px;
+}
+.wpic_sngl_prod_add_to_cart{
+  padding: 20px 0px;
+}
+.wpic_prod_description{
+  border-top: solid 1px #ccc;
+  padding: 10px;
+}
+.wpic_prod_image_container{
+  border: solid 1px #ccc;
+  text-align: center;
+}
+.wpic_prod_image_gallery ul{
+  text-align: center;
+  margin-top: 10px;
+}
+.wpic_prod_image_gallery ul li{
+  display: inline-block;
+  border: solid 1px #ccc;
+  padding: 5px;
+}
+
+.wpic_ac_price{
+  color:#666;
+  text-decoration: line-through;
+  margin-right: 20px;
+}
+table.wpic_prod_var{
+  table-layout: auto;
+  border: none;
+}
+table.wpic_prod_var td,
+table.wpic_prod_var th,
+table.wpic_prod_var td,
+table.wpic_prod_var tr.even,
+table.wpic_prod_var tr.alt,
+table.wpic_prod_var tr:nth-of-type(2n){
+  border: none;
+  background: none;
+}
+.wpic_sngl_prod_quantity input,.wpic_tab_prod_quantity input{
+  display: inline-block;
+}
+table.wpic_prod_var select{
+  height: auto;
+}

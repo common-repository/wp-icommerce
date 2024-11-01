@@ -1,0 +1,92 @@
+body
+  {
+    background-color:<?php echo '#'.$data_global_settings['design_page_background_color'];?>;
+  }
+  .cts_left_panel ul li
+  {
+    list-style: none;
+    width:100%;
+    min-height:30px;
+    background: <?php echo '#'.$data_global_settings['menu_background_color'];?>;
+    margin-bottom: 1px;
+    padding:15px 0px 0px 10px;
+    cursor: pointer;
+    text-transform:uppercase;
+    font-family:"Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 100%;
+    color:<?php echo '#'.$data_global_settings['menu_font_color'];?>;
+  }
+  .cts_left_panel ul li:hover
+  {
+    background: <?php echo '#'.$data_global_settings['menu_background_hover_color'];?>;
+    color: <?php echo '#'.$data_global_settings['menu_font_hover_color'];?>;
+  }
+  
+  .cts_right_panel
+  {
+    width:18%;
+    min-height:150px;
+    border-radius:8px;
+    border: solid 1px <?php echo '#'.$data_global_settings['right_panel_border_color'];?>;
+    background: <?php echo '#'.$data_global_settings['right_panel_background_color'];?>;
+    float: left;
+    margin-top:20px;
+    margin-left:40px;
+ }
+ .cts_prod_price
+ {
+    font-size:18px;
+    margin: 10px 0px;
+    background: <?php echo '#'.$data_global_settings['right_panel_text_background_color'];?>;
+    border-radius: 4px;
+}
+
+.cts_prod_addtocart a
+{
+    display: block;
+    width:100%;
+    min-height: 30px;
+    font-size: 16px;
+    text-align: center;
+    background: <?php echo '#'.$data_global_settings['add_to_cart_background_color'];?>;
+    border-radius: 4px;
+    text-decoration: none;
+    color: <?php echo '#'.$data_global_settings['add_to_cart_text_color'];?>;
+    padding: 5px 0px 0px 0px;
+    margin-bottom: 10px;
+}
+
+.cts_mid_panel
+{
+    border: solid 1px <?php echo '#'.$data_global_settings['middle_panel_border_color'];?>;
+    float:left;
+    width: 50%;
+    min-height: 400px;
+    /*margin: 20px 50px auto;*/
+    margin: 20px 0px 0px 55px;
+    padding:10px;
+    position: relative;
+}
+
+.cts_top_panel ul li
+{
+    list-style: none;
+    display: inline-block;
+    width:80px;
+    height:48px;
+    margin: -1px;
+    background: <?php echo '#'.$data_global_settings['menu_background_color'];?>;
+    cursor: pointer;
+    padding-top: 7px;
+    position: relative;
+    text-transform:uppercase;
+    font-family:"Open Sans",Helvetica,Arial,sans-serif;
+    font-size:14px;
+    color: <?php echo '#'.$data_global_settings['menu_font_color'];?>;
+}
+
+.cts_top_panel ul li:hover
+{
+   background: <?php echo '#'.$data_global_settings['menu_background_hover_color'];?>;
+   color: <?php echo '#'.$data_global_settings['menu_font_hover_color'];?>;
+}
